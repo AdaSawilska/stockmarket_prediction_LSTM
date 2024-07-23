@@ -207,7 +207,7 @@ if __name__ == '__main__':
     split_ratio = 0.8
     X_train, X_test, y_train, y_test = split_data(f_data.iloc[:, :-1], f_data.iloc[:, -1], split_ratio=split_ratio)
     feature_correlation(X_train)
-    selected_features = recursive_feature_elimination(X_train, y_train, 15)
+    selected_features = recursive_feature_elimination(X_train, y_train, 9)
 
     # LSTM prediction model
     feature_list = list(selected_features)

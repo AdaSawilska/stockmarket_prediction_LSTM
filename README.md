@@ -33,3 +33,44 @@ pip install -r requirements.txt
 python main.py
 ```
 
+### Results
+
+Accuracy with all features and `backcandles=40`:\
+`0.9647755068389264`
+* Open 
+* High
+* Low
+* Adj Close
+* RSI
+* EMAF 
+* EMAM 
+* EMAS 
+* SMA
+* PSL
+* ROC
+* FWMA 
+* entropy
+* zscore
+* macd
+* bb
+
+![img.png](img.png)
+
+
+Accuracy with chosen features and `backcandles=40`:
+
+`0.9734639022357808`
+
+* Open 
+* High
+* Low
+* Adj Close
+* EMAF
+* EMAM
+* EMAS
+* SMA
+* FWMA
+
+
+
+![img_1.png](img_1.png)
