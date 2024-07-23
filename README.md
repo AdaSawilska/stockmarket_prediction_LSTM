@@ -13,29 +13,23 @@ Feature Selection: Uses Recursive Feature Elimination (RFE) to select important 
 LSTM Model: Constructs and trains an LSTM model for stock price prediction.
 Evaluation: Evaluates model performance using metrics like Mean Squared Error (MSE), Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R-squared (R²) score.
 Visualization: Plots predicted vs. actual stock prices for visual evaluation.
-Requirements
-Python 3.x
-pandas
-numpy
-matplotlib
-seaborn
-pandas_ta
-yfinance
-scikit-learn
-keras
-tensorflow
 
 ### Installation
 
 
 #### Clone the repository:
-
+```
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
-
+```
 
 #### Install the required packages:
+```
 pip install -r requirements.txt
+```
 
 #### Run the Script:
+```
 python main.py
+```
+
